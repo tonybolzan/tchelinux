@@ -1,0 +1,326 @@
+{
+    "title": "Tchelinux 2020 Santa Maria",
+    "description": "14 de Novembro, na UFN em Santa Maria",
+    "date": "2020-11-14",
+    "subscription": "https://docs.google.com/forms/d/e/1FAIpQLSdq0vCsvxTy-uDI1QH5G_UINl_7qTI6v0MIS2Zp1pgxZQyCRg/viewform",
+    "cfp": "https://docs.google.com/forms/d/e/1FAIpQLSfgZYbQZFMVgJY_-__n8VUwBRO7zZRf9ZdxG_WaGkD0zhucDw/closedform",
+    "about": [
+        "O grupo de usuários de Software Livre Tchelinux, em parceria com a Universidade Franciacana de Santa Maria, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no dia 14 de Novembro de 2020 a partir das 8:00h na UFN em Santa Maria.",
+        "O evento tem entrada franca, porém os participantes são encorajados a doar 2kg de alimentos não perecíveis (exceto sal), que são encaminhados à instituições de caridade de Santa Maria. Os alimentos serão recebidos no momento do credenciamento.",
+        "O Tchelinux fornece certificados digitais para os participantes do evento. Para obtê-lo você deve realizar sua inscrição e durante o evento confirmar sua presença no credenciamento."
+    ],
+    "location": {
+        "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.616120133618!2d-51.18260686432092!3d-30.06111903851205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199d56020fa221%3A0xb8e054515bb82463!2sEscola%20Polit%C3%A9cnica%20da%20PUCRS%20-%20Pr%C3%A9dio%2032!5e0!3m2!1spt-BR!2sbr!4v1577205052437!5m2!1spt-BR!2sbr",
+        "description": "Universidade Franciscana - Conjunto III \n Rua Silva Jardim, 1175 - Bairro Nossa Senhora do Rosário \n Santa Maria, RS"
+    },
+    "sponsors": [
+        {
+            "title": "jetimob",
+            "site": "https://www.jetimob.com/",
+            "cover": "jetimob.png"
+        },
+        {
+            "title": "umanotec",
+            "site": "https://umanotec.com/",
+            "cover": "umanotec.png"
+        },
+        {
+            "title": "meta",
+            "site": "http://www.meta.com.br/",
+            "cover": "meta.png"
+        },
+        {
+            "title": "animati",
+            "site": "https://animati.com.br/",
+            "cover": "animati.png"
+        },
+        {
+            "title": "fp2",
+            "site": "https://www.fp2.com.br/",
+            "cover": "fp2.png"
+        },
+        {
+            "title": "crm piperun",
+            "site": "https://crmpiperun.com/",
+            "cover": "piperun.png"
+        }
+    ],
+    "partners": [
+        {
+            "title": "UFN",
+            "site": "https://www.ufn.edu.br",
+            "cover": "ufn.png"
+        },
+        {
+            "title": "UFN Jogos Digitais",
+            "site": "https://www.ufn.edu.br",
+            "cover": "ufn_jogos.jpg"
+        },
+        {
+            "title": "UFN Ciências da Computação",
+            "site": "https://www.ufn.edu.br",
+            "cover": "ufn_cc.jpg"
+        },
+        {
+            "title": "UFN Sistemas de Informação",
+            "site": "https://www.ufn.edu.br",
+            "cover": "ufn_si.jpg"
+        },
+        {
+            "title": "DIOLinux",
+            "site": "https://www.diolinux.com.br/",
+            "cover": "diolinux.png"
+        },
+        {
+            "title": "Projeto Root",
+            "site": "https://projetoroot.com.br/",
+            "cover": "projetoroot.png"
+        },
+        {
+            "title": "PHP Conference",
+            "site": "https://phpconference.com.br/",
+            "cover": "phpconference.png"
+        }
+    ],
+    "rooms": {
+        "201": {
+            "title": "Sala 201",
+            "description": "Desenvolvimento e Metodologias",
+            "seats": 40
+        },
+        "202": {
+            "title": "Sala 202",
+            "description": "IoT, DevOps e SysAdmin",
+            "seats": 40
+        },
+        "203": {
+            "title": "Sala 203",
+            "description": "Empreendedorismo e Comunidade",
+            "seats": 40
+        }
+    },
+    "talks": {
+        "credenciamento": {
+            "title": "Credenciamento",
+            "level": "Todo o público",
+            "speaker": "Equipe Tchelinux"
+        },
+        "abertura": {
+            "title": "Abertura",
+            "level": "Todo o público",
+            "speaker": "Equipe Tchelinux"
+        },
+        "coffee": {
+            "title": "Coffee-Break",
+            "level": "Todo o público",
+            "speaker": "Equipe Tchelinux"
+        },
+        "encerramento": {
+            "title": "Encerramento",
+            "level": "Todo o público",
+            "speaker": "Equipe Tchelinux"
+        },
+        "viniciuspwa": {
+            "title": "O Poder das PWAs",
+            "level": "Principiante",
+            "speaker": "Vinicius Gularte",
+            "bio": "Vinicius Gularte é Desenvolvedor Front-End na Gestão DS, desde 2014 atuando com desenvolvimento web.",
+            "description": "Abordagem sobre historia das PWAs (Progressive Web Applications), do que são feitas, casos de uso e o futuro do seu desenvolvimento."
+        },
+        "gabrielarduino": {
+            "title": "Introdução ao Arduino",
+            "level": "Principiante",
+            "speaker": "Gabriel Fachim",
+            "bio": "Gabriel Fachim tem 16 anos e está terminando o curso técnico em Informática.",
+            "description": "Arduino é uma plataforma de hardware e software abertos. Criada com o intuito de agilizar a prototipação de projetos eletrônicos, facilitando o aprendizado de eletrônica e software. O objetivo da palestra é apresentar a plataforma Arduino e o seu ecossistema. Passando pelas etapas necessárias para desenvolvimento de um aplicação."
+        },
+        "zamberlanjason": {
+            "title": "JASON: Ambiente Livre para Modelar e Implementar Sistemas Multiagentes no contexto de Inteligência Artificial",
+            "level": "Principiante",
+            "speaker": "Alexandre Zamberlan",
+            "bio": "Alexandre Zamberlan possui graduação em Informática pela Unijuí - RS, especialização em Sistemas de Informação e Telemática pela UFRGS, mestrado em Ciência da Computação pela PUCRS e doutorado em Nanociências pela Universidade Franciscana (antigo Centro Universitário Franciscano) com ênfase em modelagem e simulação de biossistemas e nanomateriais pela abordagem de Sistemas Multiagentes. Além disso, é Professor Assistente IV dos cursos de Ciência da Computação, Jogos Digitais e Sistemas de Informação dessa instituição. Tem experiência na área de Ciência da Computação, com ênfase em Inteligência Artificial, atuando principalmente nos seguintes temas: teoria e modelagem de agentes e sistemas multiagentes; simulação multiagente em ambientes nanoparticulados; engenharia do conhecimento e sistemas de conhecimento.",
+            "description": "A área de Inteligência Artificial está em pleno destaque. Projetar e implementar sistemas com comportamento inteligente é meta de muitas organizações, seja para descobrir conhecimento, seja para recomendar produtos/serviços, ou até mesmo, para implementar sistemas robóticos automatizados. JASON é um ambiente que é possível modelar e implementar sistemas multiagentes, garantindo autonomia, proatividade e comunicação entre os agentes."
+        },
+        "camileempodere": {
+            "title": "Empodere sua comunidade!",
+            "level": "Principiante",
+            "speaker": "Camile de Paula Silva",
+            "bio": "Camile de Paula Silva é formada em Tecnologia em Processos Gerencias pela UniCesumar e Publicidade e Propaganda pela UFN, foi líder de comunidade do Startup Weekend Santa Maria 2018, participando de 4 eventos na cidade. Apaixonada por comunidades, acredita que as pessoas boas são o caminho para desenvolver Santa Maria. Atualmente proprietária da Planeando Consultoria Digital especializada em Marketing e Branding.",
+            "description": "Nesta apresentação veremos: A Jornada do Empreendedor; Quem é a sua comunidade: o retrato de Santa Maria; Os eventos e a conexão; Give First x Give Back."
+        },
+        "ricardoglpi": {
+            "title": "Case de Gestão Administrativa e Modularizada com uso do GLPI",
+            "level": "Principiante",
+            "speaker": "Ricardo Lazzari da Rosa",
+            "bio": "Ricardo Lazzari da Rosa possui graduação em Ciência da Computação (Comparação entre as Metodologias de Alinhamento de DNA) pelo Centro Universitário Franciscano (2008). Possui especialização em Engenharia de Sistemas (Altiris Deployment Solution: Solução para Automação e Manutenção de Redes de Computadores) pela Escola Superior Aberta do Brasil (2011). Atualmente é Analista de Tecnologia da Informação da Universidade Federal do Pampa (UNIPAMPA), onde atuou como coordenador (2017-2018) da Coordenação de Redes, Infraestrutura e Suporte (CORIS) da Diretoria de Tecnologia da Informação e Comunicação (DTIC). Tem experiência na área de Ciência da Computação, com ênfase em Ciência da Computação.",
+            "description": "Esta apresentação descreve a implantação da ferramenta GLPI na UNIPAMPA através da modularização estruturada e organizada hierarquicamente para atender a gestão administrativa e institucional de chamados, sendo denominada de GAUCHA. A aplicação foi adequada de acordo com a demanda de serviços e recursos vinculados, e é decorrência de uma gestão focada em níveis de atendimento, automação de requisições, fluxo definido de aprovações, gestão e projetos e da possibilidade de integração com serviços externos (fornecedores). Os resultados são discriminados com o feedback dos usuários, considerando a pesquisa de satisfação e a gestão de relatórios com uso de dados gráficos, como no caso das métricas do sistema."
+        },
+        "manueljogar": {
+            "title": "Você pode jogar no Linux?",
+            "level": "Principiante",
+            "speaker": "Manuel de Jesús Pérez Vieira",
+            "bio": "Manuel de Jesús Pérez Vieira é Técnico em Processamento de Dados, ex-acadêmico em Publicidade e Propaganda, ex-acadêmcia em Ciência da Compuatação, acadêmico em Gestão da Tecnologia da Informação, ex Professor Técnico em Informática, atualmente trabalhando com desenvolvimento de Impressoras 3D.",
+            "description": "Essa é uma das perguntas mais frequentes de pessoas que estão pensando em mudar para o Linux. Afinal, os jogos no Linux costumam ser considerados uma possibilidade distante. De fato, algumas pessoas até se perguntam se conseguem ouvir música ou assistir filmes no Linux. Considerando isso, a pergunta sobre jogos nativos do Linux parece genuína. Vou tentar responder à maioria das perguntas sobre jogos em Linux que um iniciante em Linux possa ter. Por exemplo, se é possível jogar no Linux, se sim, quais são os jogos disponíveis no Linux, de onde você pode baixar jogos do Linux ou como obter mais informações sobre jogos no Linux."
+        },
+        "cassianoscratch": {
+            "title": "Coding for Kids: Conheça o Scratch e ScratchJr",
+            "level": "Principiante",
+            "speaker": "Cassiano Molinari Gomes",
+            "bio": "Cassiano Molinari Gomes é Técnico Químico, técnico em informática e técnico em automação industrial. Acadêmico de Pedagogia e de Licenciatura em Computação. Entusiasta de Linux e da cultura Open Source, tradutor voluntário na distro Deepin para português do Brasil. Acredita que o compartilhamento do conhecimento e cultura é a melhor forma de contribuir para a melhorar a vida das pessoas e cumprir o papel social da ciência.",
+            "description": "As habilidades necessárias para programação, como a lógica de programação e trabalhar com blocos de código, podem ser trabalhadas de forma lúdica com crianças de idades variadas com o Scratch e ScratchJr. Conheça estas ferramentas e divirta-se junto com elas enquanto aprendem."
+        },
+        "julioopensource": {
+            "title": "Porque e Como Participar de Projetos Open Source",
+            "level": "Principiante",
+            "speaker": "Julio Biason",
+            "bio": "Julio Biason participa de projetos open source desde 1990.",
+            "description": "No mundo atual, todos usam pelo menos um aplicativo open source. Mas como participar disso? Como ajudar o aplicativo a melhorar? É preciso saber programar para ajudar? Essas e outras perguntas serão respondidas nessa apresentação."
+        },
+        "juliorust": {
+            "title": "Porque Você Deve Aprender Rust",
+            "level": "Principiante",
+            "speaker": "Julio Biason",
+            "bio": "Julio Biason participa de projetos open source desde 1990.",
+            "description": "Rust (a linguagem, não o jogo) é uma linguagem que produz código em que a memória é protegida. Trazendo muitas das funcionalidades de linguagens funcionais, com abstrações de alto nível e performance semelhante a C, Rust é uma linguagem que você realmente deve aprender."
+        },
+        "juliostream": {
+            "title": "Uma Não-Gentil Introdução ao Stream Processing",
+            "level": "Principiante",
+            "speaker": "Julio Biason",
+            "bio": "Julio Biason participa de projetos open source desde 1990.",
+            "description": "Stream Processing -- não relacionado com o stream de vídeos -- é uma forma de manter dados atualizados mesmo em tempo real de forma contínua. Nesta apresentação será apresentada o que é, pra que serve e como trabalhar com Stream Processing."
+        },
+        "jeffmanpygame": {
+            "title": "Desenvolvendo jogos com Python e Pygame",
+            "level": "Principiante",
+            "speaker": "Rafael Guterres Jeffman",
+            "bio": "Rafael Jeffman é parte do time de desenvolvimento do FreeIPA (Red Hat), fotógrafo e impressor. Entre os projetos pessoais atuais estão, um conjunto de ferramentas para fotografia profissional open source, uma linguagem para o ensino de design de jogos, uma linguagem para a criação de aperesentações, e um framework que explora o paralelismo massivo para criação de aplicações multimídia. Quando dá tempo e é cobrado, desenvolve os sistemas de backend do Tchelinux, e os piores frontends do mundo.",
+            "description": "Jogar todo mundo joga. Programar, todo mundo pode. Jogar todo mundo treina. Programar, nem tanto. Mas para jogar é necessário que alguém desenvolva suas habilidades de programador. Nesse bate papo, porque ninguém mais tem paciência para palestras, será apresentada uma forma divertida de desenvolver a programação e conhecer a linguagem Python, construindo jogos, utilizando a biblioteca Pygame e ferramentas open source para desenvolver um jogo."
+        },
+        "jeffmanionic": {
+            "title": "Introdução ao Desenvolvimento Móvel com Ionic",
+            "level": "Principiante",
+            "speaker": "Rafael Guterres Jeffman",
+            "bio": "Rafael Jeffman é parte do time de desenvolvimento do FreeIPA (Red Hat), fotógrafo e impressor. Entre os projetos pessoais atuais estão, um conjunto de ferramentas para fotografia profissional open source, uma linguagem para o ensino de design de jogos, uma linguagem para a criação de aperesentações, e um framework que explora o paralelismo massivo para criação de aplicações multimídia. Quando dá tempo e é cobrado, desenvolve os sistemas de backend do Tchelinux, e os piores frontends do mundo.",
+            "description": "Existem duas formas de desenvolver aplicações para dispositivos móveis, utilizando ferramentas nativas, ou utilizando ferramentas híbridas, e cada uma apresenta suas vantagens e desvantagens. Ionic é uma ferramenta híbrida para desenvolvimento de aplicações multi-plataforma, que permite o uso de componentes nativos, mantendo, ainda assim, uma base de código comum. Nessa palestra desenvolveremos uma pequena aplicação para consulta a serviços disponibilizados na web, examinando cada passo do desenvolvimento."
+        },
+        "jeffmanopencv": {
+            "title": "Visão Computacional com OpenCV",
+            "level": "Principiante",
+            "speaker": "Rafael Guterres Jeffman",
+            "bio": "Rafael Jeffman é parte do time de desenvolvimento do FreeIPA (Red Hat), fotógrafo e impressor. Entre os projetos pessoais atuais estão, um conjunto de ferramentas para fotografia profissional open source, uma linguagem para o ensino de design de jogos, uma linguagem para a criação de aperesentações, e um framework que explora o paralelismo massivo para criação de aplicações multimídia. Quando dá tempo e é cobrado, desenvolve os sistemas de backend do Tchelinux, e os piores frontends do mundo.",
+            "description": "Uma demostração, ao vivo, da criação de uma aplicação de visão computacional utilizando a a biblioteca OpenCV."
+        },
+        "somatorioriscos": {
+            "title": "Riscos e falhas",
+            "level": "Principiante",
+            "speaker": "Marco Antonio Martins Junior",
+            "bio": "Marco Antonio Martins Junior é Peão as a Service, entusiasta da cultura DevOps, organizador do DevOpsDays Porto Alegre, Docker community leader (Porto Alegre), fuçador convicto, roda praticamente tudo em containers.",
+            "description": "Todo projeto tem seus riscos, mas sabia que podemos reduzi-los sem parar de inovar? E quando esse risco acaba virando uma falha, que podemos transformar em oportunidade de aprendizado? É eu sei, parece papo de coach, mas é coisa séria! Nesta palestra falarei sobre duas práticas que já são utilizadas por empresas consideradas \"high performers\" (de novo esse papo de coach?) para tentar responder essas duas perguntas."
+        },
+        "fabiano16bits": {
+            "title": "Desenvolvimento de jogos retrô para consoles 16 bits",
+            "level": "Principiante",
+            "speaker": "Fabiano Ferreira",
+            "bio": "Fabiano Ferreira é Técnico em Processamento de Dados pela Fundação Paula Souza (São Paulo, SP, 1996), Tecnólogo em Webdesign e Sistemas Digitais pela Universidade Anhembi-Morumbi (São Paulo, SP - 2002). Atualmente Diretor Executivo da CRIAPOLIS - Inteligência Criativa de Santa Maria, RS.",
+            "description": "Esta palestra tem por objetivo mostrar os paradigmas, desafios e técnicas de criação de jogos antigos para plataformas de consoles 16 bits, especificamente Mega Drive."
+        },
+        "diogolinux": {
+            "title": "Como o Linux pode facilitar a vida do desenvolvedor iniciante",
+            "level": "Principiante",
+            "speaker": "Diogo Medeiros",
+            "bio": "Diogo Medeiros foi desenvolvedor web por cerca de 10 anos, usuário há mais de 15 anos e apaixonado por tecnologia desde sempre. Atualmente é CTO no Jetimob, coordenando as áreas de design e programação.",
+            "description": "A ideia é dar razões para desenvolvedores usarem um ambiente Linux a partir do day-0 como forma de romper barreiras, expandir e adquirir conhecimentos que serão úteis na sua carreira."
+        },
+        "cristianodocker": {
+            "title": "Docker para iniciantes",
+            "level": "Principiante",
+            "speaker": "Cristiano dos Santos Diedrich",
+            "bio": "Cristiano dos Santos Diedrich é entusiasta Open Source, seu principal foco é ir atrás de ideias novas e torna-las realidade através de soluções simples e eficientes. É organizador do Meetup Docker Porto Alegre, Meetup DevOps/SRE Porto Alegre e DevOpsDays Porto Alegre.",
+            "description": "O que é um container Linux? Como funciona essa tecnologia? Por onde começo? Entenda nessa apresentação como você pode utilizar a tecnologia de containers para deixar mais eficiente os seus processos de desenvolvimento e entrega de software."
+        },
+        "cristianok8s": {
+            "title": "Kubernetes para iniciantes",
+            "level": "Principiante",
+            "speaker": "Cristiano dos Santos Diedrich",
+            "bio": "Cristiano dos Santos Diedrich é entusiasta Open Source, seu principal foco é ir atrás de ideias novas e torna-las realidade através de soluções simples e eficientes. É organizador do Meetup Docker Porto Alegre, Meetup DevOps/SRE Porto Alegre e DevOpsDays Porto Alegre.",
+            "description": "Falar em containers é quase falar do passado, pois atualmente esse tipo de tecnologia deixou de ser revolucionário para ser necessário. Obviamente isso gera grandes desafios, principalmente em manter este tipo de ambiente sempre rodando. Para isso existem muitas ferramentas, entre elas o Kubernetes, você sabe o que é? Como ele funciona? Vamos responder juntos essas e outras questões do mais utilizado orquestrador de containers dos dias de hoje."
+        },
+        "alexandresamba": {
+            "title": "Controlador de Domínio e Compartilhamento de Arquivos com Samba 4",
+            "level": "Principiante",
+            "speaker": "Alexandre Mendes",
+            "bio": "Alexandre Mendes é Analista de TI no Grupo ÁVATO desde 2010. Técnico em TI pelo Senac Santa Maria, Graduando em Sistemas para Internet pela UniCesumar (EaD). É apaixonado por aviação e aeromodelismo desde criança e usa Linux desde 2010, sendo o Debian seu sistema operacional principal.",
+            "description": "Nesta apresentação, iremos mostrar como podemos utilizar o Samba 4 em modo Standalone (compartilhamento de arquivos) e em modo PDC (Controlador de Domínio). Mostraremos também como podemos migrar um Controlador de Domínio de um Windows Server para um Servidor Samba."
+        },
+        "mallmannead": {
+            "title": "O Software Livre e o Ensino à Distância",
+            "level": "Principiante",
+            "speaker": "Julio Roberto dos Santos Mallmann",
+            "bio": "Julio Mallmann é Professor da Rede Pública a 16 anos, Pós-Graduado em Pedagogia, Assistente à Docência no Polo UAB Cruz Alta, Coordenador Pedagógico em EAD",
+            "description": "Relatar e incentivar a utilização do Software livre no EAD."
+        }
+    },
+    "schedule": {
+        "08:30": {
+            "201": "credenciamento",
+            "202": "credenciamento",
+            "203": "credenciamento"
+        },
+        "09:00": {
+            "201": "abertura",
+            "202": "abertura",
+            "203": "abertura"
+        },
+        "09:30": {
+            "201": "viniciuspwa",
+            "202": "gabrielarduino",
+            "203": "zamberlanjason"
+        },
+        "10:15": {
+            "201": "juliorust",
+            "202": "fabiano16bits",
+            "203": "camileempodere"
+        },
+        "11:00": {
+            "201": "jeffmanpygame",
+            "202": "diogolinux",
+            "203": "mallmannead"
+        },
+        "11:45": {
+            "201": "almoco",
+            "202": "almoco",
+            "203": "almoco"
+        },
+        "13:15": {
+            "201": "juliostream",
+            "202": "jeffmanopencv",
+            "203": "ricardoglpi"
+        },
+        "14:00": {
+            "201": "jeffmanpygame",
+            "202": "cristianodocker",
+            "203": "manueljogar"
+        },
+        "14:45": {
+            "201": "jeffmanionic",
+            "202": "cristianok8s",
+            "203": "cassianoscratch"
+        },
+        "15:30": {
+            "201": "somatorioriscos",
+            "202": "alexandresamba",
+            "203": "julioopensource"
+        },
+        "16:15": {
+            "201": "coffee",
+            "202": "coffee",
+            "203": "coffee"
+        },
+        "16:45": {
+            "201": "encerramento",
+            "202": "encerramento",
+            "203": "encerramento"
+        }
+    }
+}

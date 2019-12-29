@@ -1,0 +1,12 @@
+name = "tchelinux"
+license = "MIT"
+licenselink = "https://github.com/tchelinux/tchelinux.org/blob/master/LICENSE"
+description = "tchelinux theme"
+homepage = "http://tchelinux.org/"
+tags = []
+features = []
+min_version = "0.62"
+
+[author]
+  name = "Tonin Bolzan"
+  homepage = "https://bolzan.io"

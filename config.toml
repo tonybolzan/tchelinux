@@ -1,0 +1,4 @@
+baseURL = "https://tchelinux.org/"
+languageCode = "pt-br"
+title = "Tchelinux"
+theme = "tchelinux"
