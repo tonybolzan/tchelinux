@@ -1,4 +1,4 @@
-baseURL: "https://tchelinux.org/"
+baseURL: "https://tchelinuxhugo.netlify.com/"
 theme: "tchelinux"
 googleAnalytics: "UA-123456789-1"
 
