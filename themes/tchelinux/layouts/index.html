@@ -30,4 +30,55 @@
     </div>
 </div>
 
+<hr>
+
+<div class="row">
+    <div class="col">
+        <h2>Eventos!</h2>
+        <p style="text-align: justify;">
+            No momento estamos trabalhando no calendário de eventos do Tchelinux 2020 e vamos publicar as datas logo!
+        </p>
+        <a class="btn btn-default" href="http://wiki.tchelinux.org/#!eventos/calendario.md">Saiba mais...</a>
+    </div>
+
+    <div class="col">
+        <h2>Participe!</h2>
+        <p style="text-align: justify;">
+            O Tchelinux possui vários canais de comunicação (Lista de discussão, Canal de IRC, Redes Socias etc),
+            e todos são bem-vindos para participar.
+        </p>
+        <a class="btn btn-default" href="http://wiki.tchelinux.org/#!como_participar.md">Saiba mais...</a>
+    </div>
+
+    <div class="col">
+        <h2>Divulgue!</h2>
+        <p style="text-align: justify;">
+            Gostou da ideia? Divulgue o Tchelinux na sua Escola ou Comunidade e ajude a levar os eventos
+            do grupo até a sua cidade!
+        </p>
+        <a class="btn btn-default" href="http://wiki.tchelinux.org/#!como_ajudar.md">Saiba mais...</a>
+    </div>
+</div>
+
+<div class="row">
+    {{ range sort $.Site.Data.events }}
+        {{ range sort . "date" }}
+            {{ if (time .date).After now }}
+            <a class="card text-dark m-1" href='{{ "e/2020/poa/" | absURL }}' style="width: 18rem;">
+                <img class="card-img-top" src='{{ printf "events/%d/%s/cover.jpg" (time .date).Year .ref | absURL }}' alt="{{ .title }}">
+                <div class="card-header">
+                    {{ .title }}
+                    {{ dateFormat "Monday, Jan 2, 2006" .date }}
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        {{ .location.description }}
+                    </p>
+                </div>
+            </a>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</div>
+
 {{ end }}
