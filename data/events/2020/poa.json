@@ -1,0 +1,115 @@
+{
+  "ref": "poa",
+  "date": "2020-02-01",
+  "title": "Porto Alegre",
+  "description": "01 de Fevereiro, na UFN em Santa Maria",
+  "subscription": "https://docs.google.com/forms/d/e/1FAIpQLSdq0vCsvxTy-uDI1QH5G_UINl_7qTI6v0MIS2Zp1pgxZQyCRg/viewform",
+  "cfp": "https://docs.google.com/forms/d/e/1FAIpQLSfgZYbQZFMVgJY_-__n8VUwBRO7zZRf9ZdxG_WaGkD0zhucDw/closedform",
+  "about": [
+    "O grupo de usuários de Software Livre Tchelinux, em parceria com a Universidade Franciacana de Santa Maria, tem o prazer de convidar a comunidade para participar do evento que ocorrerá no dia 14 de Novembro de 2020 a partir das 8:00h na UFN em Santa Maria.",
+    "O evento tem entrada franca, porém os participantes são encorajados a doar 2kg de alimentos não perecíveis (exceto sal), que são encaminhados à instituições de caridade de Santa Maria. Os alimentos serão recebidos no momento do credenciamento.",
+    "O Tchelinux fornece certificados digitais para os participantes do evento. Para obtê-lo você deve realizar sua inscrição e durante o evento confirmar sua presença no credenciamento."
+  ],
+  "location": {
+    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.616120133618!2d-51.18260686432092!3d-30.06111903851205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199d56020fa221%3A0xb8e054515bb82463!2sEscola%20Polit%C3%A9cnica%20da%20PUCRS%20-%20Pr%C3%A9dio%2032!5e0!3m2!1spt-BR!2sbr!4v1577205052437!5m2!1spt-BR!2sbr",
+    "description": "Universidade XYZ"
+  },
+  "sponsors": [
+    {
+      "title": "Seja um Patrocinador",
+      "site": "https://wiki.tchelinux.org/",
+      "cover": "patrocinador.png"
+    }
+  ],
+  "partners": [
+    {
+      "title": "DIOLinux",
+      "site": "https://www.diolinux.com.br/",
+      "cover": "diolinux.png"
+    },
+    {
+      "title": "Projeto Root",
+      "site": "https://projetoroot.com.br/",
+      "cover": "projetoroot.png"
+    },
+    {
+      "title": "PHP Conference",
+      "site": "https://phpconference.com.br/",
+      "cover": "phpconference.png"
+    }
+  ],
+  "rooms": {
+    "A": {
+      "title": "Sala A",
+      "description": "",
+      "seats": 100
+    }
+  },
+  "talks": {
+    "credenciamento": {
+      "title": "Credenciamento",
+      "level": "Todo o público",
+      "speaker": "Equipe Tchelinux"
+    },
+    "abertura": {
+      "title": "Abertura",
+      "level": "Todo o público",
+      "speaker": "Equipe Tchelinux"
+    },
+    "coffee": {
+      "title": "Coffee-Break",
+      "level": "Todo o público",
+      "speaker": "Equipe Tchelinux"
+    },
+    "encerramento": {
+      "title": "Encerramento",
+      "level": "Todo o público",
+      "speaker": "Equipe Tchelinux"
+    },
+    "empty": {
+      "title": "",
+      "level": "",
+      "speaker": "",
+      "bio": "",
+      "description": ""
+    }
+  },
+  "schedule": {
+    "08:30": {
+      "A": "credenciamento"
+    },
+    "09:00": {
+      "A": "abertura"
+    },
+    "09:30": {
+      "A": "empty"
+    },
+    "10:15": {
+      "A": "empty"
+    },
+    "11:00": {
+      "A": "empty"
+    },
+    "11:45": {
+      "A": "almoco"
+    },
+    "13:15": {
+      "A": "empty"
+    },
+    "14:00": {
+      "A": "empty"
+    },
+    "14:45": {
+      "A": "empty"
+    },
+    "15:30": {
+      "A": "empty"
+    },
+    "16:15": {
+      "A": "coffee"
+    },
+    "16:45": {
+      "A": "encerramento"
+    }
+  }
+}
