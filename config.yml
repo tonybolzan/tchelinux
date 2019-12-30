@@ -1,11 +1,11 @@
-baseURL: "https://tchelinuxhugo.netlify.com/"
-theme: "tchelinux"
-googleAnalytics: "UA-123456789-1"
+baseURL: https://tchelinuxhugo.netlify.com/
+googleAnalytics: UA-123456789-1
 DefaultContentLanguage: br
 languages:
   br:
     weight: 1
     title: Tchelinux
+    languageName: Português Brasileiro
     languageCode: pt-br
     menu:
       nav:
@@ -44,6 +44,7 @@ languages:
   en:
     weight: 2
     title: Tchelinux
+    languageName: English
     languageCode: en
     menu:
       nav:
