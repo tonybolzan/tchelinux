@@ -1,59 +1,81 @@
 baseURL: "https://tchelinuxhugo.netlify.com/"
 theme: "tchelinux"
 googleAnalytics: "UA-123456789-1"
-
-menu:
-  nav:
-    - pre: fa-home
-      url: /
-      weight: 1
-
-    - name: Sobre o Tchelinux
-      url: https://wiki.tchelinux.org/#!sobre.md
-      weight: 2
-
-    - name: Onde estamos?
-      url: https://wiki.tchelinux.org/#!onde.md
-      weight: 3
-
-    - name: Como participar?
-      url: https://wiki.tchelinux.org/#!como_participar.md
-      weight: 4
-
-    - name: Como ajudar?
-      url: https://wiki.tchelinux.org/#!como_ajudar.md
-      weight: 5
-
-    - name: Calendário de Eventos
-      url: https://wiki.tchelinux.org/#!eventos/calendario.md
-      weight: 6
-
-    - name: Certificados
-      url: https://certificados.tchelinux.org/
-      weight: 7
-
-    - name: Wiki
-      url: https://wiki.tchelinux.org/
-      weight: 8
-
-    - name: 🇺🇸
-      url: /en
-      weight: 9
-
-#  About Tchelinux
-#  Where are we?
-#  Getting involved
-#  How can I help?
-#  Event Calendar
-#  Wiki
-
 DefaultContentLanguage: br
 languages:
   br:
     weight: 1
     title: Tchelinux
     languageCode: pt-br
+    menu:
+      nav:
+        - name: Sobre o Tchelinux
+          url: https://wiki.tchelinux.org/#!sobre.md
+          weight: 1
+
+        - name: Onde estamos?
+          url: https://wiki.tchelinux.org/#!onde.md
+          weight: 2
+
+        - name: Como participar?
+          url: https://wiki.tchelinux.org/#!como_participar.md
+          weight: 3
+
+        - name: Como ajudar?
+          url: https://wiki.tchelinux.org/#!como_ajudar.md
+          weight: 4
+
+        - name: Calendário de Eventos
+          url: https://wiki.tchelinux.org/#!eventos/calendario.md
+          weight: 5
+
+        - name: Certificados
+          url: https://certificados.tchelinux.org/
+          weight: 6
+
+        - name: Wiki
+          url: https://wiki.tchelinux.org/
+          weight: 7
+
+        - name: 🇺🇸
+          url: /en
+          weight: 8
+
   en:
     weight: 2
     title: Tchelinux
     languageCode: en
+    menu:
+      nav:
+        - name: About Tchelinux
+          url: https://wiki.tchelinux.org/#!sobre.md
+          weight: 1
+
+        - name: Where are we?
+          url: https://wiki.tchelinux.org/#!onde.md
+          weight: 2
+
+        - name: Getting involved
+          url: https://wiki.tchelinux.org/#!como_participar.md
+          weight: 3
+
+        - name: How can I help?
+          url: https://wiki.tchelinux.org/#!como_ajudar.md
+          weight: 4
+
+        - name: Event Calendar
+          url: https://wiki.tchelinux.org/#!eventos/calendario.md
+          weight: 5
+
+        - name: Certificate
+          url: https://certificados.tchelinux.org/
+          weight: 6
+
+        - name: Wiki
+          url: https://wiki.tchelinux.org/
+          weight: 7
+
+        - name: 🇧🇷
+          url: /
+          weight: 8
+
