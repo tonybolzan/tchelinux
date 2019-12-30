@@ -43,18 +43,7 @@
     {{ range $.Site.Data.events }}
         {{ range sort . "date" "asc" | first 8 }}
             {{ if (time .date).After now }}
-            <a class="card text-dark m-1" href='{{ "e/2020/poa/" | absURL }}' style="width: 18rem;">
-                <img class="card-img-top" src='{{ printf "img/events/%d/%s/cover.jpg" (time .date).Year .ref | absURL }}' alt="{{ .title }}">
-                <div class="card-header">
-                    {{ .title }}
-                    {{ dateFormat "Monday, Jan 2, 2006" .date }}
-                </div>
-                <div class="card-body">
-                    <p class="card-text">
-                        {{ .location.description }}
-                    </p>
-                </div>
-            </a>
+                {{ partial "index/card" (dict "card" . "date" (time .date) "ctx" $) }}
             {{ end }}
         {{ end }}
     {{ end }}

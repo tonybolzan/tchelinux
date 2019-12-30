@@ -1,0 +1,23 @@
+<div class="card text-dark m-1" style="width: 18rem;">
+    <img class="card-img-top" style="filter: grayscale(100%);filter: brightness(50%);" src='{{ printf "img/events/%d/%s/cover.jpg" .date.Year .card.ref | absURL }}' alt="{{ .card.title }}">
+    <div class="card-img-overlay text-white text-center h4">
+        Tchelinux {{ .date.Year }}
+        <br>
+        {{ .card.title }}
+    </div>
+    <div class="card-header text-center">
+        {{ .card.title }}
+        em
+        {{ .date.Day }}
+        de
+        {{ index .ctx.Site.Data.i18n.months_br (printf "%d" .date.Month) | humanize }}
+    </div>
+    <div class="card-body">
+        <p class="card-text">
+            {{ .card.location.description }}
+        </p>
+    </div>
+    <div class="card-footer">
+        <a class="btn btn-outline-primary btn-block stretched-link" href='{{ "e/2020/poa/" | absURL }}'>Acessar</a>
+    </div>
+</div>
