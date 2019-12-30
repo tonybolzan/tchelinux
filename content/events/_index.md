@@ -1,5 +1,5 @@
 ---
-title: "Events"
+title: "Eventos"
 type: "page"
 layout: "events"
 ---

@@ -2,6 +2,13 @@
 <script src='{{ "js/jquery-3.4.1.min.js" | absURL }}'></script>
 <script src='{{ "js/bootstrap.bundle.min.js" | absURL }}'></script>
 
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="popover"]').popover();
+  });
+</script>
+
 {{ if not .Site.IsServer }}
   {{ with .Site.GoogleAnalytics }}
   <script>

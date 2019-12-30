@@ -1,0 +1,50 @@
+{{ $talks := .talks }}
+{{ $rooms := .rooms }}
+{{ $sched := .schedule }}
+<table class="table table-sm table-responsive table-bordered table-striped text-center">
+    <thead>
+    <tr>
+        <th style="width: 20px">Horário</th>
+        {{ range $rooms }}
+            <th style="width: {{ div 100 (len $rooms) }}%;">
+                <b>{{ .title }}</b>
+                <br>
+                <span class="text-muted">
+                    {{ .description }}
+                    <br>
+                    ({{ .seats }} lugares)
+                </span>
+            </th>
+        {{ end }}
+    </tr>
+    </thead>
+    <tbody>
+    {{ range $time, $schedrooms := $sched }}
+        <tr>
+            <th>{{ $time }}</th>
+            {{ range $room, $_ := $rooms }}
+                <td>
+                    {{ with index $talks (index $schedrooms $room) }}
+                        {{ if or .bio .description }}
+                        <div class="btn btn-sm btn-outline-secondary btn-block"
+                             data-toggle="popover"
+                             data-container="body"
+                             data-trigger="click"
+                             data-placement="bottom"
+                             data-title="{{ .bio }}"
+                             data-content="{{ .description }}">
+                            {{ .level }}
+                        </div>
+                        {{ end }}
+
+                        <strong>{{ .title }}</strong>
+                        <br>
+                        {{ .speaker }}
+
+                    {{ end }}
+                </td>
+            {{ end }}
+        </tr>
+    {{ end }}
+    </tbody>
+</table>

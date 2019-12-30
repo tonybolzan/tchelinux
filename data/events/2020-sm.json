@@ -11,7 +11,7 @@
     "O Tchelinux fornece certificados digitais para os participantes do evento. Para obtê-lo você deve realizar sua inscrição e durante o evento confirmar sua presença no credenciamento."
   ],
   "location": {
-    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.616120133618!2d-51.18260686432092!3d-30.06111903851205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199d56020fa221%3A0xb8e054515bb82463!2sEscola%20Polit%C3%A9cnica%20da%20PUCRS%20-%20Pr%C3%A9dio%2032!5e0!3m2!1spt-BR!2sbr!4v1577205052437!5m2!1spt-BR!2sbr",
+    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1733.1046995378915!2d-53.81481563740648!3d-29.684708124174353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe61043465ea9807b!2sUFN!5e0!3m2!1spt-BR!2sbr!4v1577680536765!5m2!1spt-BR!2sbr",
     "description": "Universidade Franciscana - Conjunto III \n Rua Silva Jardim, 1175 - Bairro Nossa Senhora do Rosário \n Santa Maria, RS"
   },
   "sponsors": [
@@ -103,18 +103,20 @@
   "talks": {
     "credenciamento": {
       "title": "Credenciamento",
-      "level": "Todo o público",
-      "speaker": "Equipe Tchelinux"
+      "level": "Todo o público"
     },
     "abertura": {
       "title": "Abertura",
       "level": "Todo o público",
       "speaker": "Equipe Tchelinux"
     },
+    "almoco": {
+      "title": "Almoço",
+      "level": "Todo o público"
+    },
     "coffee": {
       "title": "Coffee-Break",
-      "level": "Todo o público",
-      "speaker": "Equipe Tchelinux"
+      "level": "Todo o público"
     },
     "encerramento": {
       "title": "Encerramento",

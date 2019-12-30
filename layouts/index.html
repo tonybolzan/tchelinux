@@ -39,12 +39,10 @@
     </div>
 </div>
 
-<div class="row">
-    {{ range $.Site.Data.events }}
-        {{ range sort . "date" "asc" | first 8 }}
-            {{ if (time .date).After now }}
-                {{ partial "index/card" (dict "card" . "date" (time .date) "ctx" $) }}
-            {{ end }}
+<div class="card-deck">
+    {{ range sort $.Site.Data.events "date" "asc" | first 8 }}
+        {{ if (time .date).After now }}
+            {{ partial "index/card" (dict "card" . "date" (time .date) "ctx" $) }}
         {{ end }}
     {{ end }}
 </div>

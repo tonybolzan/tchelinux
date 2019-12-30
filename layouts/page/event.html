@@ -1,5 +1,61 @@
+{{ define "header" }}
+    {{ with index $.Site.Data.events .File.TranslationBaseName  }}
+        {{ $bgimg := printf "img/events/%d-%s/cover.jpg" (time .date).Year .ref | absURL }}
+        <div class="jumbotron jumbotron-fluid" style="background-image: url({{ $bgimg }});background-size:cover;background-position:center;background-repeat:no-repeat;height: 75vh;width: 100%;">
+            <div class="container text-white">
+                <h1 class="display-4">
+                    Tchelinux {{ (time .date).Year }}
+                    <br>
+                    {{ .title }}
+                </h1>
+                <p>{{ .location.description }}</p>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}
+
 {{ define "main" }}
 
-{{ .Content }}
+    {{ .Content }}
+
+    {{ with index $.Site.Data.events .File.TranslationBaseName  }}
+
+        {{ range .about }}
+            <p>{{ . }}</p>
+        {{ end }}
+
+        <section id="schedule">
+            <h5>Programação</h5>
+            {{ partial "event/schedule" . }}
+        </section>
+
+        <section id="location">
+            <h5>Local</h5>
+            <blockquote class="blockquote">
+                {{ .location.description }}
+            </blockquote>
+
+            <iframe src="{{ .location.mapurl }}" frameborder="0" allowfullscreen="" style="border:0;width: 100%;height: 50vh;"></iframe>
+        </section>
+
+        <section id="sponsors">
+            <h5>Patrocinadores</h5>
+            <div class="row">
+                {{ range .sponsors }}
+                    {{ partial "event/sponsor" . }}
+                {{ end }}
+            </div>
+        </section>
+
+        <section id="partners">
+            <h5>Apoio</h5>
+            <div class="row">
+                {{ range .partners }}
+                    {{ partial "event/sponsor" . }}
+                {{ end }}
+            </div>
+        </section>
+
+    {{ end }}
 
 {{ end }}
