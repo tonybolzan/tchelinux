@@ -9,7 +9,7 @@ menu:
     - pre: fa-home
       url: /
       weight: 1
-      
+
     - name: Sobre o Tchelinux
       url: https://wiki.tchelinux.org/#!sobre.md
       weight: 2
