@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<div class="row">
+    {{ range $.Site.Data.events }}
+        {{ range sort . "date" "asc" }}
+            {{ partial "index/card" (dict "card" . "date" (time .date) "ctx" $) }}
+        {{ end }}
+    {{ end }}
+</div>
+
+{{ end }}
