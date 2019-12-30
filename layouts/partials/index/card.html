@@ -18,6 +18,6 @@
         </p>
     </div>
     <div class="card-footer">
-        <a class="btn btn-outline-primary btn-block stretched-link" href='{{ "e/2020/poa/" | absURL }}'>Acessar</a>
+        <a class="btn btn-outline-primary btn-block stretched-link" href='{{ printf "event/%d/%s" .date.Year .card.ref | absURL }}'>Acessar</a>
     </div>
 </div>
