@@ -29,3 +29,6 @@ static/img/events/<ano>-<evento>/cover.jpg  - Imagem 1280x512 do banner de cada 
 static/img/sponsors/*.(jpg|png)             - Imagens dos patrocinadores e apoiadores referenciadas no json
 layouts/                                    - Layout html para construção das paginas dos eventos
 ```
+
+# URL de Teste
+https://tchelinux.netlify.com
