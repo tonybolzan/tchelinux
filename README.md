@@ -24,7 +24,7 @@ xdg-open http://127.0.0.1:1313/events/$EVYEAR-$EVNAME/
 config.yml                                  - Menus de navegação
 content/_index.(br|en).md                   - Texto de apresentação
 content/events/                             - Arquivos de referência padrão (não alterar)
-data/events/*.json                          - Arquivo contendo todo o conteúdo dos eventos
+data/events/<ano>-<evento>.json             - Arquivo contendo todo o conteúdo dos eventos
 static/img/events/<ano>-<evento>/cover.jpg  - Imagem 1280x512 do banner de cada evento
 static/img/sponsors/*.(jpg|png)             - Imagens dos patrocinadores e apoiadores referenciadas no json
 layouts/                                    - Layout html para construção das paginas dos eventos
