@@ -5,7 +5,7 @@
 snap install hugo
 git clone git@github.com:tonybolzan/tchelinux.git
 cd tchelinux
-hugo server --baseURL="http://127.0.0.1/" --watch
+hugo server -b "http://127.0.0.1/" --watch
 ```
 
 # Contribuindo
